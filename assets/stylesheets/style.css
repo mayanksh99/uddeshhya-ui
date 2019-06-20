@@ -1,5 +1,11 @@
+@font-face {
+    font-family: Gotham Rounded Bold;
+    src: url(../../Gotham\ Rounded\ Bold.otf);
+}
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden!important;
+    font-family: 'Gotham Rounded Bold', sans-serif;
 }
 
 .top {
@@ -7,15 +13,19 @@ body {
 }
 
 .top_body {
+    padding:0;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 14px;
 }
 
 .nav-item {
     font-weight: 700;
-    color: black;
+    color: #707070;
     margin-right: 35px;
+}
+
+.nav-link {
+    color: #444444!important;
 }
 
 .child_img {
@@ -23,65 +33,86 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 600px;
+    height: 450px;
 }
 
 .heading {
     position: absolute;
-    top: 250px;
-    font-style: normal;
-    font-size: 72px;
-    line-height: 88px;
+    top: 150px;
+    /* font-style: normal; */
+    font-size: 4em;
     color: #FFFFFF;
-    text-shadow: 2px 0 #FFFFFF;
-    letter-spacing: 2px;
+    /* text-shadow: 2px 0 #FFFFFF; */
+    /* letter-spacing: 2px; */
     font-weight: bold;
 }
 
 .abt {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     font-size: 44px;
-    line-height: 59px;
-    color: rgba(213, 8, 8, 0.8);
+    /* color: rgba(213, 8, 8, 0.8); */
+    color: #FFFFFF;
     text-shadow: 2px 0 rgba(213, 8, 8, 0.8);
     letter-spacing: 2px;
     font-weight: bold;
 }
 
+.abtmain{
+    font-size: 44px;
+    color: rgba(213, 8, 8, 0.8);
+    /* color: #FFFFFF; */
+    /* text-shadow: 2px 0 rgba(213, 8, 8, 0.8); */
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.abtglimpse{
+    font-size: 2rem;
+    color: rgba(213, 8, 8, 0.8);
+    /* color: #FFFFFF; */
+    /* text-shadow: 2px 0 rgba(213, 8, 8, 0.8); */
+    letter-spacing: 2px;
+    font-weight: bold;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
 .card {
     border: 0;
-    background: #F1F1F1;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: rgba(213, 8, 8, 0.8);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 8, 0.25); */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     padding: 16px;
     margin-bottom: 16px;
-    height: 100%;
+    /* height: 100%; */
 }
 
 .number {
-    font-size: 23px;
-    color: #444444;
-    text-shadow: 2px 0 #444444;
+    font-size: 20px;
+    color: #ffffff;
+    text-shadow: 2px 0 rgba(0, 0, 0, 0.25);
     letter-spacing: 2px;
     font-weight: bold;
 }
 
 .tough {
-    background: linear-gradient(to bottom, white 0%, white 25%, rgb(204, 61, 73) 50%, rgb(204, 61, 73) 100%);
-    height: 100%;
+    background: rgba(213, 8, 8, 0.8);
+    background: linear-gradient(to bottom, white 0%, white 25%, rgba(213, 8, 8, 0.8) 0%, rgba(213, 8, 8, 0.8) 100%);
+    /* height: 200; */
 }
 
-.pos {
-    margin-top: 250px;
-}
+/* .pos {
+    margin-top: 200px;
+} */
 
 .card_body {
     margin: 20px;
-    font-size: 35px;
-    line-height: 44px;
+    font-size: 20px;
     color: white;
     text-shadow: 2px 0 white;
     letter-spacing: 2px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .card_img {
@@ -100,7 +131,8 @@ body {
 }
 
 .thumb {
-    border-radius: 50px;
+    border-radius: 50%;
+    width: 80px;
 }
 
 .name {
