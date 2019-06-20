@@ -85,7 +85,7 @@ body {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     padding: 16px;
     margin-bottom: 16px;
-    /* height: 100%; */
+    height: 100%;
 }
 
 .number {
@@ -119,7 +119,7 @@ body {
     background: linear-gradient(89.35deg, rgba(241, 241, 241, 0.8) 31.39%, rgba(255, 255, 255, 0) 99.74%), url(../images/children-close-up-crowd-764681.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 340px;
+    height: 300px;
 }
 
 .crd {
